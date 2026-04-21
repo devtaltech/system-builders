@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "dist/server/index.js": {
+      "runtime": "edge"
+    }
+  },
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "dist/server/index.js"
+    }
+  ]
+}
