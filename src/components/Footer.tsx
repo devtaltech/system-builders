@@ -7,8 +7,12 @@ export function Footer() {
         <div className="grid gap-10 md:grid-cols-4">
           <div className="md:col-span-2">
             <div className="flex items-center gap-2">
-              <span className="grid h-8 w-8 place-items-center rounded-md bg-gradient-to-br from-cyan to-pink text-background font-display font-bold">D</span>
-              <span className="font-display text-lg font-bold">DeVTAL<span className="text-pink">.</span></span>
+              <span className="grid h-8 w-8 place-items-center rounded-md bg-gradient-to-br from-cyan to-pink text-background font-display font-bold">
+                D
+              </span>
+              <span className="font-display text-lg font-bold">
+                DeVTAL<span className="text-pink">.</span>
+              </span>
             </div>
             <p className="mt-4 max-w-md text-muted-foreground">
               From website to full business system — built and managed.
@@ -18,20 +22,47 @@ export function Footer() {
             </p>
           </div>
           <div>
-            <h4 className="font-display text-sm uppercase tracking-wider text-muted-foreground">Sitemap</h4>
+            <h4 className="font-display text-sm uppercase tracking-wider text-muted-foreground">
+              Sitemap
+            </h4>
             <ul className="mt-3 space-y-2 text-sm">
-              <li><Link to="/services" className="hover:text-cyan">Services</Link></li>
-              <li><Link to="/work" className="hover:text-cyan">Work</Link></li>
-              <li><Link to="/careers" className="hover:text-cyan">Careers</Link></li>
-              <li><Link to="/contact" className="hover:text-cyan">Contact</Link></li>
+              <li>
+                <Link to="/services" className="hover:text-cyan">
+                  Services
+                </Link>
+              </li>
+              <li>
+                <Link to="/work" className="hover:text-cyan">
+                  Work
+                </Link>
+              </li>
+              <li>
+                <Link to="/careers" className="hover:text-cyan">
+                  Careers
+                </Link>
+              </li>
+              <li>
+                <Link to="/contact" className="hover:text-cyan">
+                  Contact
+                </Link>
+              </li>
             </ul>
           </div>
           <div>
-            <h4 className="font-display text-sm uppercase tracking-wider text-muted-foreground">Elsewhere</h4>
+            <h4 className="font-display text-sm uppercase tracking-wider text-muted-foreground">
+              Elsewhere
+            </h4>
             <ul className="mt-3 space-y-2 text-sm">
-              <li><a href="#" className="hover:text-cyan">Instagram</a></li>
-              <li><a href="#" className="hover:text-cyan">LinkedIn</a></li>
-              <li><a href="https://wa.me/919999999999" className="hover:text-cyan">WhatsApp</a></li>
+              <li>
+                <a href="https://www.linkedin.com/company/96445128/" className="hover:text-cyan">
+                  LinkedIn
+                </a>
+              </li>
+              <li>
+                <a href="https://wa.me/9719203955" className="hover:text-cyan">
+                  WhatsApp
+                </a>
+              </li>
             </ul>
           </div>
         </div>
